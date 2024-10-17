@@ -1,0 +1,46 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	testSword: {
+		DisplayName: Ale Sword
+		Tooltip: Right click after sticking an enemy to throw a bottle of ale
+	}
+
+	MushroomSpellBook: {
+		DisplayName: Mushroom Tome
+		Tooltip:
+			'''
+			Fires a stream of glowing mushrooms
+			Smells like dirt but looks quite edible. Right click to take a bite
+			'''
+	}
+
+	MushroomWhip: {
+		DisplayName: Mind Shroomer
+		Tooltip: Chance to confuse enemies on hit
+	}
+}
+
+Buffs: {
+	AleSwordBuff: {
+		DisplayName: Ale Overload
+		Description: Your sword is imbued with the power of alcohol. Damage increased by 10%
+	}
+
+	MushroomDebuff: {
+		DisplayName: Dizy
+		Description: -10% max health, +20 max mana, 5% reduced mana costs. You feel like you should eat more...
+	}
+
+	MushroomDebuff2: {
+		DisplayName: Mushroom High
+		Description: -20% max health, +50 max mana, 10% reduced mana costs. You feel like you should eat more...
+	}
+
+	MushroomDebuff3: {
+		DisplayName: Tripping Out!
+		Description: -30% max health, +100 max mana, 15% reduced mana costs
+	}
+}
+
+Projectiles.MushroomWhipProjectile.DisplayName: Mushroom Whip Projectile

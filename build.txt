@@ -1,0 +1,3 @@
+displayName = FirstMod
+author = Knowdawg
+version = 0.1
