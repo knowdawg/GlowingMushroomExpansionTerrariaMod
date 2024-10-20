@@ -138,20 +138,5 @@ namespace FirstMod.Content.Items{
 			return true;
 		}
 
-        public override void AddRecipes(){
-			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.GlowingMushroom, 20);
-			recipe.AddIngredient(ItemID.MudBlock, 10);
-			recipe.AddIngredient(ItemID.SilverBar, 3);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.Register();
-
-            recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.GlowingMushroom, 20);
-			recipe.AddIngredient(ItemID.MudBlock, 10);
-			recipe.AddIngredient(ItemID.TungstenBar, 3);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.Register();
-		}
     }
 }

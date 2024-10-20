@@ -17,7 +17,7 @@ namespace FirstMod.Content.Items
 		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.FirstMod.hjson' file.
 		public override void SetDefaults()
 		{
-			Item.damage = 20;
+			Item.damage = 16;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 64;
 			Item.height = 64;
@@ -163,14 +163,14 @@ namespace FirstMod.Content.Items
 			recipe.AddIngredient(ItemID.Ale, 3);
 			recipe.AddIngredient(ItemID.Topaz, 5);
 			recipe.AddIngredient(ItemID.ShadowScale, 5);
-			recipe.AddTile(TileID.Anvils);
+			recipe.AddTile(TileID.Kegs);
 			recipe.Register();
 
 			recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.Ale, 3);
 			recipe.AddIngredient(ItemID.Topaz, 5);
 			recipe.AddIngredient(ItemID.TissueSample, 5);
-			recipe.AddTile(TileID.Anvils);
+			recipe.AddTile(TileID.Kegs);
 			recipe.Register();
 		}
 	}

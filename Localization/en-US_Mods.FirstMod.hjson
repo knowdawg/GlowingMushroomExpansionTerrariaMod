@@ -19,6 +19,39 @@ Items: {
 		DisplayName: Mind Shroomer
 		Tooltip: Chance to confuse enemies on hit
 	}
+
+	MushroomFlail: {
+		DisplayName: Glowing Spore Flail
+		Tooltip: Creates toxic fumes while spinning
+	}
+
+	MushroomSword: {
+		DisplayName: Shroom Sparker
+		Tooltip:
+			'''
+			Right click to throw a mushroom dagger to cover enemies in spores
+			Strike enemies to ignite the spores
+			'''
+	}
+
+	MushroomGun: {
+		DisplayName: Shroom Cannon
+		Tooltip:
+			'''
+			Shoots glowing mushrooms
+			75% chance not to consume Ammo
+			'''
+	}
+
+	MushroomGrenadeAmmo: {
+		DisplayName: Mushroom Grenade Ammo
+		Tooltip: ""
+	}
+
+	MushroomStaff: {
+		DisplayName: Mushroom Staff
+		Tooltip: ""
+	}
 }
 
 Buffs: {
@@ -41,6 +74,31 @@ Buffs: {
 		DisplayName: Tripping Out!
 		Description: -30% max health, +100 max mana, 15% reduced mana costs
 	}
+
+	MushroomKnifeDebuff: {
+		DisplayName: Mushroom Knife Debuff
+		Description: Mods.FirstMod.Buffs.MushroomKnifeDebuff.Description
+	}
+
+	MushroomKnifeDebuff2: {
+		DisplayName: Mushroom Knife Debuff2
+		Description: Mods.FirstMod.Buffs.MushroomKnifeDebuff2.Description
+	}
+
+	MushroomKnifeDebuff3: {
+		DisplayName: Mushroom Knife Debuff3
+		Description: Mods.FirstMod.Buffs.MushroomKnifeDebuff3.Description
+	}
 }
 
-Projectiles.MushroomWhipProjectile.DisplayName: Mushroom Whip Projectile
+Projectiles: {
+	MushroomWhipProjectile.DisplayName: Mushroom Whip Projectile
+	MushroomFlailProjectile.DisplayName: Mushroom Flail Projectile
+	MushroomKnifeProjectile.DisplayName: Mushroom Knife Projectile
+	MushroomSwordProjectile.DisplayName: Mushroom Sword Projectile
+	MushroomGrenadeProjectile.DisplayName: Mushroom Grenade Projectile
+	MushroomStaffShaft.DisplayName: Mushroom Staff Shaft
+	MushroomStaffOrb.DisplayName: Mushroom Staff Orb
+	MushroomStaffSpiral.DisplayName: Mushroom Staff Spiral
+	MushroomStaffProjectile.DisplayName: Mushroom Staff Projectile
+}
