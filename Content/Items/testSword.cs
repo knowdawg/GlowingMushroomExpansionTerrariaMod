@@ -17,7 +17,7 @@ namespace FirstMod.Content.Items
 		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.FirstMod.hjson' file.
 		public override void SetDefaults()
 		{
-			Item.damage = 16;
+			Item.damage = 13;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 64;
 			Item.height = 64;

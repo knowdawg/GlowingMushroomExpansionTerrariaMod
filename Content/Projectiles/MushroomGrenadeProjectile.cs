@@ -69,7 +69,7 @@ namespace FirstMod.Content.Projectiles{
                 Vector2 v = new Vector2();
                 v.X = (float)(Math.Cos(a)) * r;
                 v.Y = (float)(Math.Sin(a)) * r;
-                Projectile.NewProjectile(source, Projectile.position, v, ProjectileID.SporeGas, (int)(Projectile.damage * 0.5F), 0, Projectile.whoAmI);
+                Projectile.NewProjectile(source, Projectile.position, v, ProjectileID.SporeGas, (int)(Projectile.damage * 0.5F), 0, Projectile.owner);
 			}
 		}
     }

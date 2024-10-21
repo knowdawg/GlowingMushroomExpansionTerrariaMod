@@ -1,12 +1,9 @@
-using System;
 using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 using FirstMod.Content.Projectiles;
 using FirstMod.Content.Buffs;
-using Microsoft.Build.Execution;
 
 namespace FirstMod.Content.Items{
 

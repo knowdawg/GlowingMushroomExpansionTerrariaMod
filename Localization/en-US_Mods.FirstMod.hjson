@@ -49,8 +49,28 @@ Items: {
 	}
 
 	MushroomStaff: {
-		DisplayName: Mushroom Staff
-		Tooltip: ""
+		DisplayName: Staff of Mushroom
+		Tooltip: Able to be charged to fire a explosive glowing mushroom
+	}
+
+	MushroomBreastplate: {
+		DisplayName: Mushroom Breastplate
+		Tooltip: Slightly increased mining speed
+	}
+
+	MushroomHelmet: {
+		DisplayName: Mushroom Helmet
+		Tooltip: Slightly increased mining speed
+	}
+
+	MushroomLegs: {
+		DisplayName: Mushroom Legs
+		Tooltip: Slightly increased mining speed
+	}
+
+	MushroomBlowgun: {
+		DisplayName: Blow Spore Pipe
+		Tooltip: Allows the collection of seeds for ammo
 	}
 }
 

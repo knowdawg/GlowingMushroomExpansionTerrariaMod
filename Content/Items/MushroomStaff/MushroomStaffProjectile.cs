@@ -1,6 +1,3 @@
-using System;
-using FirstMod.Content.Buffs;
-using Iced.Intel;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Audio;
@@ -56,7 +53,6 @@ namespace FirstMod.Content.Items.MushroomStaff{
 				dust.noGravity = true;
 				dust.velocity *= 5.0f;
 				dust.scale *= 1f;
-
                 Dust dust2 = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.Lava);
 				dust2.noGravity = true;
 				dust2.velocity *= 5.0f;
@@ -71,9 +67,11 @@ namespace FirstMod.Content.Items.MushroomStaff{
         bool colided = false;
         public override bool OnTileCollide(Vector2 oldVelocity)
         {
-            SoundEngine.PlaySound(SoundID.Dig, Projectile.position);
-            Projectile.timeLeft = 60;
-            colided = true;
+            if(!colided){
+                SoundEngine.PlaySound(SoundID.Dig, Projectile.position);
+                Projectile.timeLeft = 60;
+                colided = true;
+            }
             return false;
         }
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
@@ -97,7 +95,7 @@ namespace FirstMod.Content.Items.MushroomStaff{
 				dust2.velocity *= 3.0f;
 				dust2.scale *= 1f;
 			}
-            Projectile.NewProjectile(source, Projectile.position, new Vector2(0), ProjectileID.DD2ExplosiveTrapT3Explosion, Projectile.damage, Projectile.knockBack, Projectile.whoAmI);
+            Projectile.NewProjectile(source, Projectile.position, new Vector2(0), ProjectileID.DD2ExplosiveTrapT3Explosion, Projectile.damage, Projectile.knockBack, Projectile.owner);
 		}
     }
 }

@@ -45,12 +45,12 @@ namespace FirstMod.Content.Items{
         {
 			if(player.channel && sIsSet == true){
 				tickTimer += 1;
-				if(tickTimer >= 10){
+				if(tickTimer >= 30){
 					double rVal = (double)(Main.rand.Next());
 					float rVal2 = Main.rand.NextFloat();
-					float xDisp = (float)(Math.Sin(rVal) * 150) * rVal2;
-					float yDisp = (float)(Math.Cos(rVal) * 150) * rVal2;
-					Projectile.NewProjectile(s, player.position + new Vector2(xDisp, yDisp), new Vector2(0F, 0F), ProjectileID.ToxicCloud3, (int)((float)(Item.damage) * 0.3F), 0f);
+					float xDisp = (float)(Math.Sin(rVal) * 100) * rVal2;
+					float yDisp = (float)(Math.Cos(rVal) * 100) * rVal2;
+					Projectile.NewProjectile(s, player.position + new Vector2(xDisp, yDisp), new Vector2(0F, 0F), ProjectileID.TruffleSpore, Item.damage, 0f);
 					tickTimer = 0;
 				}
 			}else{

@@ -74,6 +74,23 @@ namespace FirstMod.Content.Items.MushroomStaff{
 			}
 			return false;
         }
+
+		public override void AddRecipes()
+		{
+			Recipe recipe = CreateRecipe();
+			recipe.AddIngredient(ItemID.GlowingMushroom, 10);
+			recipe.AddIngredient(ItemID.Sapphire, 1);
+			recipe.AddIngredient(ItemID.GoldBar, 8);
+			recipe.AddTile(TileID.Anvils);
+			recipe.Register();
+
+			recipe = CreateRecipe();
+			recipe.AddIngredient(ItemID.GlowingMushroom, 10);
+			recipe.AddIngredient(ItemID.Sapphire, 1);
+			recipe.AddIngredient(ItemID.PlatinumBar, 8);
+			recipe.AddTile(TileID.Anvils);
+			recipe.Register();
+		}
     }
 
 
