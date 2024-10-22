@@ -24,7 +24,7 @@ namespace FirstMod.Content.Items.MushroomStaff{
 			Item.width = 48;
 			Item.height = 48;
 			Item.value = Item.buyPrice(0, 1, 0, 0);
-			Item.rare = ItemRarityID.Green;
+			Item.rare = ItemRarityID.Blue;
 			Item.damage = 14;
 			Item.knockBack = 5;
 			Item.useStyle = ItemUseStyleID.Shoot;
@@ -189,9 +189,9 @@ namespace FirstMod.Content.Items.MushroomStaff{
 				dir *= 10;
 
 				if(tickTimer >= 100){
-					Projectile.NewProjectile(null, Projectile.position, dir * 2, ModContent.ProjectileType<MushroomStaffProjectile>(), Projectile.damage * 2, Projectile.knockBack * 2, p.whoAmI);
+					Projectile.NewProjectile(null, Projectile.position + new Vector2(0, 24), dir * 2, ModContent.ProjectileType<MushroomStaffProjectile>(), Projectile.damage * 2, Projectile.knockBack * 2, p.whoAmI);
 				}else if (tickTimer >= 1){
-					Projectile.NewProjectile(null, Projectile.position, dir, ProjectileID.SapphireBolt, Projectile.damage, Projectile.knockBack, p.whoAmI);
+					Projectile.NewProjectile(null, Projectile.position + new Vector2(0, 24), dir, ProjectileID.SapphireBolt, Projectile.damage, Projectile.knockBack, p.whoAmI);
 				}
 				
 				Projectile.timeLeft = 0;

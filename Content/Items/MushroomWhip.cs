@@ -16,7 +16,8 @@ namespace FirstMod.Content.Items{
 			// This method quickly sets the whip's properties.
 			// Mouse over to see its parameters.
 			Item.DefaultToWhip(ModContent.ProjectileType<MushroomWhipProjectile>(), 12, 2, 4);
-			Item.rare = ItemRarityID.Green;   
+			Item.rare = ItemRarityID.Blue;
+			Item.value = Item.buyPrice(silver: 80);
 		}
 
 		public override bool MeleePrefix() {

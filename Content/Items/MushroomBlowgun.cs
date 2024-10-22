@@ -17,7 +17,7 @@ namespace FirstMod.Content.Items{
 			Item.width = 48; // Hitbox width of the item.
 			Item.height = 48; // Hitbox height of the item.
 			Item.scale = 1f;
-			Item.rare = ItemRarityID.Green; // The color that the item's name will be in-game.
+			Item.rare = ItemRarityID.Blue; // The color that the item's name will be in-game.
 
 			// Use Properties
 			Item.useTime = 25; // The item's use time in ticks (60 ticks == 1 second.)
@@ -39,6 +39,8 @@ namespace FirstMod.Content.Items{
 			Item.shoot = ProjectileID.PurificationPowder; // For some reason, all the guns in the vanilla source have this.
 			Item.shootSpeed = 20f; // The speed of the projectile (measured in pixels per frame.)
 			Item.useAmmo = ItemID.Seed;
+
+			Item.value = Item.buyPrice(silver: 80);
         }
 
         public override Vector2? HoldoutOffset()

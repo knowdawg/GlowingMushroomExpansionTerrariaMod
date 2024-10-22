@@ -2,7 +2,6 @@ using FirstMod.Content.Projectiles;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.UI;
 
 namespace FirstMod.Common.GlobalItems{
 

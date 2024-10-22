@@ -31,7 +31,7 @@ namespace FirstMod.Content.Items{
 			Item.shoot = ModContent.ProjectileType<MushroomFlailProjectile>(); // The flail projectile
 			Item.shootSpeed = 12f;
 			Item.UseSound = SoundID.Item1;
-			Item.rare = ItemRarityID.Orange;
+			Item.rare = ItemRarityID.Blue;
 			Item.value = Item.sellPrice(silver: 50);
 			Item.DamageType = DamageClass.MeleeNoSpeed;
 			Item.channel = true;

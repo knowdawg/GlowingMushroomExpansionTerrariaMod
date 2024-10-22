@@ -72,6 +72,11 @@ Items: {
 		DisplayName: Blow Spore Pipe
 		Tooltip: Allows the collection of seeds for ammo
 	}
+
+	MushroomMinionItem: {
+		DisplayName: Bulb Staff
+		Tooltip: Summons a fungi bulb to fight for you
+	}
 }
 
 Buffs: {
@@ -109,6 +114,11 @@ Buffs: {
 		DisplayName: Mushroom Knife Debuff3
 		Description: Mods.FirstMod.Buffs.MushroomKnifeDebuff3.Description
 	}
+
+	MushroomMinionBuff: {
+		DisplayName: Mushroom Minion Buff
+		Description: Mods.FirstMod.Buffs.MushroomMinionBuff.Description
+	}
 }
 
 Projectiles: {
@@ -121,4 +131,5 @@ Projectiles: {
 	MushroomStaffOrb.DisplayName: Mushroom Staff Orb
 	MushroomStaffSpiral.DisplayName: Mushroom Staff Spiral
 	MushroomStaffProjectile.DisplayName: Mushroom Staff Projectile
+	MushroomMinionProjectile.DisplayName: Mushroom Minion Projectile
 }

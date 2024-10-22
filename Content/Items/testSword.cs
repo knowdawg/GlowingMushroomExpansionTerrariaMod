@@ -27,7 +27,7 @@ namespace FirstMod.Content.Items
 			Item.knockBack = 6;
 			
 			Item.value = Item.buyPrice(silver: 80);
-			Item.rare = ItemRarityID.Blue;
+			Item.rare = ItemRarityID.Green;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
 
@@ -62,7 +62,6 @@ namespace FirstMod.Content.Items
 				Item.useStyle = ItemUseStyleID.Swing;
 				Item.shoot = ProjectileID.Ale;
 			}else{
-				Item.damage = 20;
 				Item.useTime = 20;
 				Item.useAnimation = 20;
 				Item.useStyle = ItemUseStyleID.Swing;
