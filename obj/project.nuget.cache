@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MgQIZ/kwvJ0=",
+  "dgSpecHash": "GkoVs7VsHDY=",
   "success": true,
-  "projectFilePath": "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/FirstMod/FirstMod.csproj",
+  "projectFilePath": "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/BoosterPackGlowingMushrooms/BoosterPackGlowingMushrooms.csproj",
   "expectedPackageFiles": [
     "/Users/nolankellerman/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
   ],

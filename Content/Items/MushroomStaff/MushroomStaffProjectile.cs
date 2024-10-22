@@ -5,7 +5,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Content.Items.MushroomStaff{
+namespace BoosterPackGlowingMushrooms.Content.Items.MushroomStaff{
 
     public class MushroomStaffProjectile : ModProjectile{
 

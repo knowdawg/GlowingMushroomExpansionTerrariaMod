@@ -1,1 +1,3 @@
-Modify this file with a description of your mod.
+    Booster Pack: Glowing Mushrooms is just that, a small content pack for the early game glowing mushroom biome!
+
+    This mod contains 8 new high quality weapons (2 per class) and a new armor set, all themed around the glowing mushroom biome. Booster Pack: Glowing Mushroom aims to be as balenced and nonintrusive as posible so that it can be used in tandem with larger mods.

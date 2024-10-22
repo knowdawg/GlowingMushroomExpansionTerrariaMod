@@ -1,9 +1,9 @@
-using FirstMod.Content.Projectiles;
+using BoosterPackGlowingMushrooms.Content.Projectiles;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Common.GlobalItems{
+namespace BoosterPackGlowingMushrooms.Common.GlobalItems{
 
     public class ModifyDefaults : GlobalItem{
         public override void SetDefaults(Item Item){

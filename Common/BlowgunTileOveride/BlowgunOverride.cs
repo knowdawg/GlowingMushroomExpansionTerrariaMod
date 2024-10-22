@@ -1,4 +1,4 @@
-using FirstMod.Content.Items;
+using BoosterPackGlowingMushrooms.Content.Items;
 using System.Linq;
 using Terraria;
 using Terraria.Enums;
@@ -7,7 +7,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
-namespace FirstMod.Common.BlowguntileOveride{
+namespace BoosterPackGlowingMushrooms.Common.BlowguntileOveride{
 
     public class BlowgunOverride : GlobalTile{
 

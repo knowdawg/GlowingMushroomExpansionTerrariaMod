@@ -1,5 +1,5 @@
 using System;
-using FirstMod.Content.Buffs;
+using BoosterPackGlowingMushrooms.Content.Buffs;
 using Iced.Intel;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -8,7 +8,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
 
-namespace FirstMod.Content.Projectiles{
+namespace BoosterPackGlowingMushrooms.Content.Projectiles{
 
     public class MushroomGrenadeProjectile : ModProjectile{
 

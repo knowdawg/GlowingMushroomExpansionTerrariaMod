@@ -102,22 +102,22 @@ Buffs: {
 
 	MushroomKnifeDebuff: {
 		DisplayName: Mushroom Knife Debuff
-		Description: Mods.FirstMod.Buffs.MushroomKnifeDebuff.Description
+		Description: Mods.BoosterPackGlowingMushrooms.Buffs.MushroomKnifeDebuff.Description
 	}
 
 	MushroomKnifeDebuff2: {
 		DisplayName: Mushroom Knife Debuff2
-		Description: Mods.FirstMod.Buffs.MushroomKnifeDebuff2.Description
+		Description: Mods.BoosterPackGlowingMushrooms.Buffs.MushroomKnifeDebuff2.Description
 	}
 
 	MushroomKnifeDebuff3: {
 		DisplayName: Mushroom Knife Debuff3
-		Description: Mods.FirstMod.Buffs.MushroomKnifeDebuff3.Description
+		Description: Mods.BoosterPackGlowingMushrooms.Buffs.MushroomKnifeDebuff3.Description
 	}
 
 	MushroomMinionBuff: {
 		DisplayName: Mushroom Minion Buff
-		Description: Mods.FirstMod.Buffs.MushroomMinionBuff.Description
+		Description: Mods.BoosterPackGlowingMushrooms.Buffs.MushroomMinionBuff.Description
 	}
 }
 

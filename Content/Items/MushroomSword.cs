@@ -2,10 +2,10 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using FirstMod.Content.Projectiles;
-using FirstMod.Content.Buffs;
+using BoosterPackGlowingMushrooms.Content.Projectiles;
+using BoosterPackGlowingMushrooms.Content.Buffs;
 
-namespace FirstMod.Content.Items{
+namespace BoosterPackGlowingMushrooms.Content.Items{
 
     public class MushroomSword : ModItem{
 

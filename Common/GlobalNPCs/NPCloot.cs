@@ -1,12 +1,12 @@
-using FirstMod.Content.Items;
-using FirstMod.Content.Items.MushroomMinion;
+using BoosterPackGlowingMushrooms.Content.Items;
+using BoosterPackGlowingMushrooms.Content.Items.MushroomMinion;
 using System.Linq;
 using Terraria;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Common.GlobalNPCs{
+namespace BoosterPackGlowingMushrooms.Common.GlobalNPCs{
 
     public class GlobalNPCs : GlobalNPC{
 

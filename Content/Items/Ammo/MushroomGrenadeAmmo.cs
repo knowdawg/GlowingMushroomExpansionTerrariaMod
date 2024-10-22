@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Content.Items.Ammo{
+namespace BoosterPackGlowingMushrooms.Content.Items.Ammo{
 
     public class MushroomGrenadeAmmo : ModItem{
 

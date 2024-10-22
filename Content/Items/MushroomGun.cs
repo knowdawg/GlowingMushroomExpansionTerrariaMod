@@ -1,5 +1,5 @@
 using System;
-using FirstMod.Content.Projectiles;
+using BoosterPackGlowingMushrooms.Content.Projectiles;
 using Microsoft.Xna.Framework;
 using Mono.Cecil.Cil;
 using Terraria;
@@ -8,7 +8,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Audio;
 
-namespace FirstMod.Content.Items{
+namespace BoosterPackGlowingMushrooms.Content.Items{
 
     public class MushroomGun : ModItem{
 

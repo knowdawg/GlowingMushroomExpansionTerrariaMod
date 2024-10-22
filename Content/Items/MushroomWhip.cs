@@ -6,9 +6,9 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using FirstMod.Content.Projectiles;
+using BoosterPackGlowingMushrooms.Content.Projectiles;
 
-namespace FirstMod.Content.Items{
+namespace BoosterPackGlowingMushrooms.Content.Items{
 
     public class MushroomWhip : ModItem{
 

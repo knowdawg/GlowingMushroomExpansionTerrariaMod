@@ -10,7 +10,7 @@ using Terraria.GameContent.Drawing;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Content.Items.MushroomMinion
+namespace BoosterPackGlowingMushrooms.Content.Items.MushroomMinion
 {
 	// This file contains all the code necessary for a minion
 	// - ModItem - the weapon which you use to summon the minion with

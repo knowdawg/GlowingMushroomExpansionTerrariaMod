@@ -7,7 +7,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Content.Items{
+namespace BoosterPackGlowingMushrooms.Content.Items{
 
     public class MushroomSpellBook : ModItem{
         

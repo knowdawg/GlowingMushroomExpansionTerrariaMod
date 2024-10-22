@@ -5,7 +5,7 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Content.Projectiles{
+namespace BoosterPackGlowingMushrooms.Content.Projectiles{
 
     public class MushroomFlailProjectile : ModProjectile{
 

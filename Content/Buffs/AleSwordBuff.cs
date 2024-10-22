@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using System.ComponentModel;
 
-namespace FirstMod.Content.Buffs{
+namespace BoosterPackGlowingMushrooms.Content.Buffs{
 
     internal class AleSwordBuff : ModBuff{
 

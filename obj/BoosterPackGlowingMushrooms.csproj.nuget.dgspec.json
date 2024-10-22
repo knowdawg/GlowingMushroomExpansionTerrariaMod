@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/FirstMod/FirstMod.csproj": {}
+    "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/BoosterPackGlowingMushrooms/BoosterPackGlowingMushrooms.csproj": {}
   },
   "projects": {
-    "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/FirstMod/FirstMod.csproj": {
+    "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/BoosterPackGlowingMushrooms/BoosterPackGlowingMushrooms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/FirstMod/FirstMod.csproj",
-        "projectName": "FirstMod",
-        "projectPath": "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/FirstMod/FirstMod.csproj",
+        "projectUniqueName": "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/BoosterPackGlowingMushrooms/BoosterPackGlowingMushrooms.csproj",
+        "projectName": "BoosterPackGlowingMushrooms",
+        "projectPath": "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/BoosterPackGlowingMushrooms/BoosterPackGlowingMushrooms.csproj",
         "packagesPath": "/Users/nolankellerman/.nuget/packages/",
-        "outputPath": "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/FirstMod/obj/",
+        "outputPath": "/Users/nolankellerman/Library/Application Support/Terraria/tModLoader/ModSources/BoosterPackGlowingMushrooms/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nolankellerman/.nuget/NuGet/NuGet.Config"

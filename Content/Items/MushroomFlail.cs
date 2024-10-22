@@ -1,5 +1,5 @@
 using System;
-using FirstMod.Content.Projectiles;
+using BoosterPackGlowingMushrooms.Content.Projectiles;
 using Microsoft.Xna.Framework;
 using Mono.Cecil.Cil;
 using Terraria;
@@ -7,7 +7,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Content.Items{
+namespace BoosterPackGlowingMushrooms.Content.Items{
 
     public class MushroomFlail : ModItem{
 

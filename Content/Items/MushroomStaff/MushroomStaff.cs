@@ -9,9 +9,9 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Audio;
-using FirstMod.Content.Projectiles;
+using BoosterPackGlowingMushrooms.Content.Projectiles;
 
-namespace FirstMod.Content.Items.MushroomStaff{
+namespace BoosterPackGlowingMushrooms.Content.Items.MushroomStaff{
 
     public class MushroomStaff : ModItem{
 

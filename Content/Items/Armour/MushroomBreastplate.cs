@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 
 
-namespace FirstMod.Content.Items.Armour
+namespace BoosterPackGlowingMushrooms.Content.Items.Armour
 {
     [AutoloadEquip(EquipType.Body)]
     internal class MushroomBreastplate : ModItem

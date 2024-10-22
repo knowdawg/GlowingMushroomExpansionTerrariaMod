@@ -6,7 +6,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FirstMod.Content.Items
+namespace BoosterPackGlowingMushrooms.Content.Items
 { 
 	// This is a basic item template.
 	// Please see tModLoader's ExampleMod for every other example:

@@ -4,11 +4,11 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using FirstMod.Content.Projectiles;
-using FirstMod.Content.Buffs;
+using BoosterPackGlowingMushrooms.Content.Projectiles;
+using BoosterPackGlowingMushrooms.Content.Buffs;
 using Microsoft.Build.Execution;
 
-namespace FirstMod.Content.Items{
+namespace BoosterPackGlowingMushrooms.Content.Items{
 
     public class MushroomBlowgun : ModItem{
 
