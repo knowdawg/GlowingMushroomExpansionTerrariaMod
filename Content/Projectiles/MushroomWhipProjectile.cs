@@ -1,3 +1,4 @@
+using BoosterPackGlowingMushrooms.Content.Buffs;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
@@ -28,6 +29,7 @@ namespace BoosterPackGlowingMushrooms.Content.Projectiles{
             if(r == 0){
                 target.AddBuff(BuffID.Confused, 120);
             }
+			target.AddBuff(BuffID.BlandWhipEnemyDebuff, 240);
 			Main.player[Projectile.owner].MinionAttackTargetNPC = target.whoAmI;
 			Projectile.damage = (int)(Projectile.damage * 0.5f); // Multihit penalty. Decrease the damage the more enemies the whip hits.
 		}

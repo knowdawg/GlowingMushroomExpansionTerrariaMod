@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoosterPackGlowingMushrooms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+773363721bf90429d0f01ab4052b83973b60f94d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4482d06d295f66e8d42084d975881ae59b2866d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoosterPackGlowingMushrooms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoosterPackGlowingMushrooms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

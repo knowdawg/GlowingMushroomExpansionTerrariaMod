@@ -1,7 +1,5 @@
 using Terraria;
 using Terraria.ModLoader;
-using Terraria.ID;
-using System.ComponentModel;
 
 namespace BoosterPackGlowingMushrooms.Content.Buffs{
 

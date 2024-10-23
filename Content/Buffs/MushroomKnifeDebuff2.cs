@@ -1,7 +1,6 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
-using System.ComponentModel;
 
 namespace BoosterPackGlowingMushrooms.Content.Buffs{
 
@@ -10,7 +9,7 @@ namespace BoosterPackGlowingMushrooms.Content.Buffs{
         public override void SetStaticDefaults()
         {
             Main.debuff[Type] = true;
-            //BuffID.Sets.CanBeRemovedByNetMessage[Type] = true;
+            BuffID.Sets.CanBeRemovedByNetMessage[Type] = true;
             
         }
 

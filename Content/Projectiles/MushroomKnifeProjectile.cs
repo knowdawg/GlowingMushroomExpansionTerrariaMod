@@ -43,12 +43,10 @@ namespace BoosterPackGlowingMushrooms.Content.Projectiles{
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
 			if(target.HasBuff(debuff1)){
-				int d = target.FindBuffIndex(debuff1);
-				target.DelBuff(d);
+				target.RequestBuffRemoval(debuff1);
 				target.AddBuff(debuff2, 600);
 			}else if(target.HasBuff(debuff2)){
-				int d = target.FindBuffIndex(debuff2);
-				target.DelBuff(d);
+				target.RequestBuffRemoval(debuff2);
 				target.AddBuff(debuff3, 600);
 			} else if(target.HasBuff(debuff3)){
 				target.AddBuff(debuff3, 600);

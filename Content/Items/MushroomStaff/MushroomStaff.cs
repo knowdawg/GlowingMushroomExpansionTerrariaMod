@@ -1,15 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.DataStructures;
-using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Audio;
-using BoosterPackGlowingMushrooms.Content.Projectiles;
 
 namespace BoosterPackGlowingMushrooms.Content.Items.MushroomStaff{
 
@@ -183,15 +179,16 @@ namespace BoosterPackGlowingMushrooms.Content.Items.MushroomStaff{
 			p.itemAnimation = ItemUseStyleID.Shoot;
 
 			if(Main.mouseLeftRelease && p.channel != true){
+				Vector2 disp = new Vector2(0, 24);
 				Vector2 dir = Main.MouseWorld;
-				dir -= Projectile.position;
+				dir -= (Projectile.position + disp);
 				dir.Normalize();
 				dir *= 10;
 
 				if(tickTimer >= 100){
-					Projectile.NewProjectile(null, Projectile.position + new Vector2(0, 24), dir * 2, ModContent.ProjectileType<MushroomStaffProjectile>(), Projectile.damage * 2, Projectile.knockBack * 2, p.whoAmI);
+					Projectile.NewProjectile(null, Projectile.position + disp, dir * 2, ModContent.ProjectileType<MushroomStaffProjectile>(), Projectile.damage * 2, Projectile.knockBack * 2, p.whoAmI);
 				}else if (tickTimer >= 1){
-					Projectile.NewProjectile(null, Projectile.position + new Vector2(0, 24), dir, ProjectileID.SapphireBolt, Projectile.damage, Projectile.knockBack, p.whoAmI);
+					Projectile.NewProjectile(null, Projectile.position + disp, dir, ProjectileID.SapphireBolt, Projectile.damage, Projectile.knockBack, p.whoAmI);
 				}
 				
 				Projectile.timeLeft = 0;

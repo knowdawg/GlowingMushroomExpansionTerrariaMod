@@ -82,7 +82,10 @@ namespace BoosterPackGlowingMushrooms.Content.Items.MushroomStaff{
 
         public override bool? CanHitNPC(NPC target)
         {
-            return !colided;
+            if(target.friendly == false){
+                return !colided;
+            }
+            return null;
         }
 
         public override void OnKill(int timeLeft) {

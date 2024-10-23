@@ -43,18 +43,14 @@ namespace BoosterPackGlowingMushrooms.Content.Items{
         public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone){
             if(target.HasBuff(debuff1)){
 				var p = Projectile.NewProjectile(null, target.position + new Vector2(12, -30F), new Vector2(0F, 0F), ProjectileID.DD2ExplosiveTrapT1Explosion, Item.damage * 2, 0);
-				int b = target.FindBuffIndex(debuff1);
-				target.DelBuff(b);
+
+				target.RequestBuffRemoval(debuff1);
 			}else if(target.HasBuff(debuff2)){
 				Projectile.NewProjectile(null, target.position + new Vector2(12, -28F), new Vector2(0F, 0F), ProjectileID.DD2ExplosiveTrapT2Explosion, Item.damage * 3, 0);
-				
-				int b = target.FindBuffIndex(debuff2);
-				target.DelBuff(b);
+				target.RequestBuffRemoval(debuff2);
 			} else if(target.HasBuff(debuff3)){
 				Projectile.NewProjectile(null, target.position + new Vector2(12, -24F), new Vector2(0F, 0F), ProjectileID.DD2ExplosiveTrapT3Explosion, Item.damage * 4, 0);
-				
-				int b = target.FindBuffIndex(debuff3);
-				target.DelBuff(b);
+				target.RequestBuffRemoval(debuff3);
 			}else{
 				return;
 			}

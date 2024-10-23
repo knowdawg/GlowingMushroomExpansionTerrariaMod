@@ -1,12 +1,7 @@
-using System;
-using BoosterPackGlowingMushrooms.Content.Projectiles;
 using Microsoft.Xna.Framework;
-using Mono.Cecil.Cil;
 using Terraria;
-using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.Audio;
 
 namespace BoosterPackGlowingMushrooms.Content.Items{
 

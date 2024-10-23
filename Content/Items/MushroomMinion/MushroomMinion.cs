@@ -1,12 +1,9 @@
-using Iced.Intel;
-using Microsoft.Build.Evaluation;
+using BoosterPackGlowingMushrooms.Content.Projectiles;
 using Microsoft.Xna.Framework;
-using Mono.Cecil.Cil;
 using System;
 using Terraria;
 using Terraria.Audio;
 using Terraria.DataStructures;
-using Terraria.GameContent.Drawing;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -101,6 +98,7 @@ namespace BoosterPackGlowingMushrooms.Content.Items.MushroomMinion
         int summonIndex = 0;
         int summonID = ModContent.ProjectileType<MushroomMinionProjectile>();
 		public override void SetStaticDefaults() {
+
 			// Sets the amount of frames this minion has on its spritesheet
 			Main.projFrames[Projectile.type] = 1;
 			// This is necessary for right-click targeting
@@ -222,7 +220,7 @@ namespace BoosterPackGlowingMushrooms.Content.Items.MushroomMinion
 		}
 
 		private void SearchForTargets(Player owner, out bool foundTarget, out Vector2 targetCenter) {
-            float maxDis = 500;
+            float maxDis = 400;
             float closest = maxDis;
             foundTarget = false;
             targetCenter = new Vector2(0);
@@ -263,9 +261,9 @@ namespace BoosterPackGlowingMushrooms.Content.Items.MushroomMinion
                 if(tickTimer >= 60){
                     Vector2 dir = Projectile.position - targetCenter;
                     dir.Normalize();
-                    dir *= -100;
+                    dir *= -35;
 
-                    Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.position + new Vector2(16, 16), dir, ProjectileID.Mushroom, Projectile.damage, Projectile.knockBack, Projectile.owner);
+                    Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.position + new Vector2(16, 16), dir, ModContent.ProjectileType<MushroomMinionProjectile2>(), Projectile.damage, Projectile.knockBack, Projectile.owner);
 
                     SoundEngine.PlaySound(SoundID.NPCDeath9, Projectile.position);
 

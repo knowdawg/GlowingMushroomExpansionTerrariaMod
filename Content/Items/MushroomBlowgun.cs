@@ -1,12 +1,8 @@
-using System;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using BoosterPackGlowingMushrooms.Content.Projectiles;
-using BoosterPackGlowingMushrooms.Content.Buffs;
-using Microsoft.Build.Execution;
 
 namespace BoosterPackGlowingMushrooms.Content.Items{
 
